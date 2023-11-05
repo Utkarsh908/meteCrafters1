@@ -19,7 +19,7 @@ function mintNFT(name, description, rarity) {
   nftCollection.push(nft);
 }
 
-/ This function will list all NFTs' metadata to the console.
+// This function will list all NFTs' metadata to the console.
 function listNFTs() {
   for (const nft of nftCollection) {
     console.log("Name: " + nft.name);
